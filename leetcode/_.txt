@@ -3,13 +3,12 @@ Problem:
 Platform: LeetCode
 Problem Number: 
 Difficulty: 
-URL: https://leetcode.com/problems/remove-all-occurrences-of-a-substring/submissions/1539843551/
+URL: https://leetcode.com/problems/two-sum/description/
 Date: 12/02/2025
 */
 
 class Solution {
-    public String removeOccurrences(String s, String part) {
-            while (s.contains(part)) s = s.replaceFirst(part, "");
-        return s;
+    public int[] twoSum(int[] nums, int target) {
+        
     }
 }
