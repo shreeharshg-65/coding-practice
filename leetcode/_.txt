@@ -3,7 +3,7 @@ Problem:
 Platform: LeetCode
 Problem Number: 
 Difficulty: 
-URL: https://leetcode.com/problems/two-sum/
+URL: https://leetcode.com/problems/two-sum/submissions/1539844262/
 Date: 12/02/2025
 */
 
