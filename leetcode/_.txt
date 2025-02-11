@@ -3,7 +3,7 @@ Problem:
 Platform: LeetCode
 Problem Number: 
 Difficulty: 
-URL: https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
+URL: https://leetcode.com/problems/remove-all-occurrences-of-a-substring/
 Date: 12/02/2025
 */
 
