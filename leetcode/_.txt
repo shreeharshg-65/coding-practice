@@ -3,13 +3,8 @@ Problem:
 Platform: LeetCode
 Problem Number: 
 Difficulty: 
-URL: https://leetcode.com/problems/remove-all-occurrences-of-a-substring/
+URL: https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
 Date: 12/02/2025
 */
 
-class Solution {
-    public String removeOccurrences(String s, String part) {
-            while (s.contains(part)) s = s.replaceFirst(part, "");
-    }
-        return s;
-}
+
