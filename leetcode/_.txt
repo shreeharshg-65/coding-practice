@@ -3,8 +3,8 @@ Problem:
 Platform: LeetCode
 Problem Number: 
 Difficulty: 
-URL: https://leetcode.com/problems/add-two-numbers/submissions/1539810457/
+URL: https://leetcode.com/problems/add-two-numbers/
 Date: 11/02/2025
 */
 
-22232425262728293031323334353637            int digit = sum % 10;            carry = sum / 10;            ListNode newNode = new ListNode(digit);            tail.next = newNode;            tail = tail.next;            l1 = (l1 != null) ? l1.next : null;            l2 = (l2 != null) ? l2.next : null;        }        ListNode result = dummyHead.next;        dummyHead.next = null;        return result;    }}
+232425262728293031323334353637            carry = sum / 10;            ListNode newNode = new ListNode(digit);            tail.next = newNode;            tail = tail.next;            l1 = (l1 != null) ? l1.next : null;            l2 = (l2 != null) ? l2.next : null;        }        ListNode result = dummyHead.next;        dummyHead.next = null;        return result;    }}
