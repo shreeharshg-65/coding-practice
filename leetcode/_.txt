@@ -3,12 +3,23 @@ Problem:
 Platform: LeetCode
 Problem Number: 
 Difficulty: 
-URL: https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/solutions/6410482/easy-hashmaps-with-pq-solution/
+URL: https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/
 Date: 12/02/2025
 */
 
-class Solution {
-    public int maximumSum(int[] nums) {
-        
+Map<Integer, PriorityQueue<Integer>> map = new HashMap<>();
+        for (int num : nums) {
+            int sum = getSum(num);
+            map.putIfAbsent(sum, new PriorityQueue<>(Collections.reverseOrder()));
+            map.get(sum).offer(num);
+        }
+
+        long maxSum = -1;
+        for (PriorityQueue<Integer> pq : map.values()) {
+            if (pq.size() < 2) continue;
+            long sum = pq.poll() + pq.poll();
+            maxSum = Math.max(maxSum, sum);
+        }
+        return (int) maxSum;
     }
 }
