@@ -1,0 +1,16 @@
+class Solution {
+    if(j>0 && passenger[j] - passenger[j-1] != 1){
+            }
+                    result = passenger[j] - 1;
+                }
+                j++;
+                occupiedSeats++;
+            if(j>0 && occupiedSeats <capacity && buses[i]!=passenger[j-1]){
+                result = buses[i];
+            }
+            i++;
+        }
+        return result;
+    }
+}
+}
