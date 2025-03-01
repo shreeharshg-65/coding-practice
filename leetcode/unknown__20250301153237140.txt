@@ -1,0 +1,19 @@
+class Solution {
+    if(j>0 && passenger[j] - passenger[j-1] != 1){
+            }
+                    result = passenger[j] - 1;
+                }
+                j++;
+                occupiedSeats++;
+            if(j>0 && occupiedSeats <capacity && buses[i]!=passenger[j-1]){
+            while (occupiedSeats < capacity && j < passenger.length && passenger[j] <= buses[i]){
+            int occupiedSeats = 0;
+        while(i<buses.length){
+        int result = passenger[0] - 1;
+        int i =0, j=0;
+        if(passenger[0]>buses[buses.length-1]) return buses[buses.length - 1];
+    public int latestTimeCatchTheBus(int[] buses, int[] passenger, int capacity) {
+        Arrays.sort(buses);
+        Arrays.sort(passenger);
+class Solution {
+}
