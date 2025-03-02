@@ -1,0 +1,19 @@
+class Solution {
+    }
+        }
+        int[] arr=new int[hm.size()];
+        int x=0;
+        for (int i : hm.keySet()){
+                hm.put(i[0],i[1]);
+            else{
+                hm.put(i[0],hm.get(i[0])+i[1]);
+            }
+        for (int[] i : nums2){
+            if (hm.containsKey(i[0])){
+            hm.put(i[0],i[1]);
+        }
+    public int[][] mergeArrays(int[][] nums1, int[][] nums2) {
+        HashMap<Integer,Integer> hm=new HashMap<>();
+        for (int[] i : nums1){
+class Solution {
+}
